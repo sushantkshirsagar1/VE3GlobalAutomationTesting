@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Homepage button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-03T22:27:07 IST" name="Default suite" finished-at="2023-10-03T22:28:07 IST" duration-ms="60029">
+    <groups>
+    </groups>
+    <test started-at="2023-10-03T22:27:07 IST" name="Default test" finished-at="2023-10-03T22:28:07 IST" duration-ms="60029">
+      <class name="tests.Class1Test">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:26:57 IST" name="initBrowser" finished-at="2023-10-03T22:27:07 IST" duration-ms="9944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="objectCreation()[pri:0, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:07 IST" name="objectCreation" finished-at="2023-10-03T22:27:07 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCreation -->
+        <test-method signature="testID_01()[pri:1, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:07 IST" name="testID_01" finished-at="2023-10-03T22:27:13 IST" duration-ms="5465" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Homepage button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testID_01 -->
+        <test-method signature="testID_02()[pri:2, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:13 IST" name="testID_02" finished-at="2023-10-03T22:27:13 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testID_02 -->
+        <test-method signature="clickOnContact()[pri:3, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:13 IST" name="clickOnContact" finished-at="2023-10-03T22:27:17 IST" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContact -->
+        <test-method signature="testingBlankForm()[pri:4, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:17 IST" name="testingBlankForm" finished-at="2023-10-03T22:27:17 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingBlankForm -->
+        <test-method signature="verifyingMandatoryFields(java.lang.String,java.lang.String)[pri:5, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:17 IST" name="verifyingMandatoryFields" data-provider="TestData" finished-at="2023-10-03T22:27:33 IST" duration-ms="15451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sushant@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMandatoryFields -->
+        <test-method signature="verifyingMandatoryFields(java.lang.String,java.lang.String)[pri:5, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:33 IST" name="verifyingMandatoryFields" data-provider="TestData" finished-at="2023-10-03T22:27:48 IST" duration-ms="15059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sush123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sushant123@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMandatoryFields -->
+        <test-method signature="verifyingMandatoryFields(java.lang.String,java.lang.String)[pri:5, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:27:48 IST" name="verifyingMandatoryFields" data-provider="TestData" finished-at="2023-10-03T22:28:03 IST" duration-ms="14904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Susha123@#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sushant123#@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMandatoryFields -->
+        <test-method signature="validateOptionalFields()[pri:6, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:28:03 IST" name="validateOptionalFields" finished-at="2023-10-03T22:28:07 IST" duration-ms="4602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOptionalFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Class1Test@3f270e0a]" started-at="2023-10-03T22:28:07 IST" name="tearDown" finished-at="2023-10-03T22:28:08 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Class1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
